@@ -1,0 +1,31 @@
+q = str(input("What color is your Bugatti?: "))
+q2 = str(input("What do you breath?: "))
+q3 = str(input("Which kind of water do you like?: "))
+q4 = str(input("What game do you play?: "))
+
+if q.capitalize() == "Gold":
+    print("CORRECT")
+if not q.capitalize() == "Gold":
+    print("WRONG")
+
+if q2.capitalize() == "Air":
+    print("CORRECT")
+if not q2.capitalize() == "Air":
+    print("WRONG")
+
+if q3.capitalize() == "Sparkling":
+    print("CORRECT")
+if not q3.capitalize() == "Sparkling":
+    print("WRONG")
+
+if q4.capitalize() == "Chess":
+    print("CORRECT")
+if not q4.capitalize() == "Chess":
+    print("WRONG")
+
+if q.capitalize() == "Gold":
+    if q2.capitalize() == "Air":
+        if q3.capitalize() == "Sparkling":
+            if q4.capitalize() == "Chess":
+                print("YOU HAVE SUCCESSFULLY PASSED THE TOP-G TEST!!")
+                print("YOU HAVE ESCAPED THE MATRIX!!!!!!!!")
